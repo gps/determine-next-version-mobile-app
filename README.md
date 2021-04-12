@@ -1,5 +1,5 @@
 # determine-next-version-mobile-app
-This action looks at git tags in a repository that begin with `v`, and are of format `x.y.z(n)`, where `x`, `y`, `z`, and `n` are integers that represent the major, minor, patch, and version code respectively. It then sets an output with `x.y.z+1(n+1)`. In the GitHub [action](https://github.com/gps/determine-next-version) the version was in the form `x.y.z`, this action updates it to be of form `x.y.z(n)`.
+This action looks at git tags in a repository that begin with `v`, and are of format `x.y.z(n)`, where `x`, `y`, `z`, and `n` are integers that represent the major, minor, patch, and version code respectively. It then sets an output with `x.y.z+1(n+1)`. In the GitHub action [determine-next-version](https://github.com/gps/determine-next-version) the version was in the form `x.y.z`, this action updates it to be of form `x.y.z(n)`.
 
 ## Inputs
 
@@ -7,13 +7,9 @@ This action looks at git tags in a repository that begin with `v`, and are of fo
 
 The GitHub token used to authenticate with GitHub.
 
-**Required**
-
 ### `tag_prefix`
 
 Prefix to look for in version tags.
-
-**Required**
 
 **Default Value** 
 
