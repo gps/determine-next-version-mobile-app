@@ -1,5 +1,5 @@
 {
-  "name": "determine-next-version",
+  "name": "determine-next-version-mobile-app",
   "version": "1.0.0",
   "description": "A GitHub Action that parses git tags that start with v and determines the next version",
   "main": "index.js",
