@@ -78,8 +78,8 @@ async function run() {
   const regExp = tags[0].match(/\((.*)\)/);
   var code = regExp[1]
   
-  if(code==null){
-    code=1
+  if(code === null){
+    code = 1
   } else {
     code = parseInt(code) + 1
   }
